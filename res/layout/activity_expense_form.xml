@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_gravity="center"
+    tools:context="com.india.myexpancetracker.ExpenseFormActivity" >
+
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/expense_form_title"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20pt" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/EditTextItemName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/itemName"
+        android:inputType="text" >
+    </EditText>
+
+    <Spinner
+    android:id="@+id/SpinnerFeedbackType"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:scrollbars="vertical"
+    android:prompt="@string/category"
+    android:layout_width="fill_parent"
+    android:entries="@array/categorytypelist">
+</Spinner>
+   
+
+    <EditText
+        android:id="@+id/EditTextQuantity"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/quantity"
+        android:inputType="number" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextPrice"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/price"
+        android:inputType="numberDecimal" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/textViewTotalPrice"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/totalPrice"
+        android:inputType="none" >
+    </EditText>
+    
+    <Button
+        android:id="@+id/ButtonSubmit"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="submit"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:text="@string/submit" >
+    </Button>
+
+</LinearLayout>

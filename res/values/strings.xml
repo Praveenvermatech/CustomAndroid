@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyExpanceTracker</string>
+    <string name="title"><u>Sign Up:</u></string>
+    <string name="display">Display</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="salary">Salary</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_expense_form">ExpenseFormActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="expense_form_title">Fill Expense Form</string>
+    <string name="itemName">Enter Item Name</string>
+    <string name="category">Select Category</string>
+    <string name="quantity">Enter Quantity</string>
+    <string name="price">Enter Price/Quantity</string>
+    <string name="totalPrice">Total Price</string>
+    
+    <string name="category1">College Fee</string> 
+    <string name="category2">Bank Deposit</string>
+    <string name="category3">Food</string>
+    <string name="category4">Clothes</string>
+    <string name="category5">Add more</string>
+    
+
+</resources>
