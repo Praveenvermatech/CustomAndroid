@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@drawable/bg"
+    android:background="@drawable/background"
     android:layout_gravity="center"
     tools:context="com.india.myexpancetracker.ExpenseFormActivity" >
 
@@ -27,7 +27,7 @@
     </EditText>
 
     <Spinner
-    android:id="@+id/SpinnerFeedbackType"
+    android:id="@+id/itemCategory"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
     android:scrollbars="vertical"
@@ -55,14 +55,14 @@
         android:inputType="numberDecimal" >
     </EditText>
 
-    <EditText
+    <TextView
         android:id="@+id/textViewTotalPrice"
         android:layout_marginTop="10dp"
         android:layout_width="fill_parent"
+        android:layout_marginLeft="10dp"
         android:layout_height="wrap_content"
         android:hint="@string/totalPrice"
-        android:inputType="none" >
-    </EditText>
+        android:inputType="none" />
     
     <Button
         android:id="@+id/ButtonSubmit"
